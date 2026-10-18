@@ -63,7 +63,7 @@ const EXTENSOES_LOGO = [".png", ".svg", ".jpg", ".jpeg", ".webp", ""];
 function LogoIASD({ tamanho = "w-7 h-7" }: { tamanho?: string }) {
   const [indiceExt, setIndiceExt] = useState(0);
 
-  const srcAtual = `/logo_iasd${EXTENSOES_LOGO[indiceExt]}`;
+  const srcAtual = `./logo_iasd${EXTENSOES_LOGO[indiceExt]}`;
 
   return (
     <img
