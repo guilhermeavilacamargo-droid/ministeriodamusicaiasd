@@ -663,10 +663,6 @@ export default function SistemaMusicaIASDRiachoGrande() {
     avisosProntos &&
     Boolean(hojeISO);
 
-  if (!sistemaCarregado) {
-    return <div className="min-h-screen bg-[#F5F5F7]" />;
-  }
-
   const mostrarBannerEntrada = !usuarioAtual || forcarBannerUsuario;
 
   // ==========================================
